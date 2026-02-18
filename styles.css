@@ -1,0 +1,403 @@
+/* VinoPrep Legal Pages — Shared Stylesheet */
+
+/* ─── Design Tokens ─────────────────────────────────────────────────────── */
+:root {
+  --color-primary:        #722F37;
+  --color-accent:         #C4973B;
+  --color-bg-page:        #F7F5F3;
+  --color-bg-surface:     #FFFFFF;
+  --color-bg-subtle:      #EFEBE8;
+  --color-text-primary:   #1A1A1A;
+  --color-text-secondary: #5C5652;
+  --color-text-muted:     #8A847F;
+  --color-border:         #E5E0DC;
+  --shadow-card:          0 4px 12px rgba(0, 0, 0, 0.08);
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --font-base: -apple-system, 'SF Pro Display', system-ui, sans-serif;
+  --content-max-width: 720px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary:        #D4838B;
+    --color-accent:         #E8C87A;
+    --color-bg-page:        #1E1819;
+    --color-bg-surface:     #141011;
+    --color-bg-subtle:      #2A2224;
+    --color-text-primary:   #F0ECE9;
+    --color-text-secondary: #A69E99;
+    --color-text-muted:     #6B6461;
+    --color-border:         #3A3234;
+    --shadow-card:          0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* ─── Reset & Base ──────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-base);
+  background-color: var(--color-bg-page);
+  color: var(--color-text-primary);
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── Site Header ───────────────────────────────────────────────────────── */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-bg-surface);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.site-header__inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--color-text-primary);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  flex-shrink: 0;
+}
+
+.site-logo__icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* ─── Language Switcher ─────────────────────────────────────────────────── */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
+}
+
+.lang-switcher a {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  transition: color 0.15s, background-color 0.15s;
+  white-space: nowrap;
+}
+
+.lang-switcher a:hover {
+  color: var(--color-primary);
+  background-color: var(--color-bg-subtle);
+}
+
+.lang-switcher a.active {
+  color: var(--color-primary);
+  font-weight: 600;
+  background-color: var(--color-bg-subtle);
+}
+
+.lang-switcher__sep {
+  color: var(--color-border);
+  user-select: none;
+}
+
+/* ─── Content Wrapper ───────────────────────────────────────────────────── */
+.content-wrapper {
+  flex: 1;
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+/* ─── Legal Document Card ───────────────────────────────────────────────── */
+.legal-document {
+  background-color: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+/* ─── Document Header ───────────────────────────────────────────────────── */
+.document-header {
+  background-color: var(--color-bg-subtle);
+  border-bottom: 1px solid var(--color-border);
+  padding: 32px 40px;
+}
+
+.document-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+
+.last-updated {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* ─── Document Body ─────────────────────────────────────────────────────── */
+.document-body {
+  padding: 40px;
+}
+
+/* ─── Legal Sections ────────────────────────────────────────────────────── */
+.legal-section {
+  margin-bottom: 36px;
+}
+
+.legal-section:last-child {
+  margin-bottom: 0;
+}
+
+.legal-section h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 12px;
+  padding-left: 14px;
+  position: relative;
+}
+
+.legal-section h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  bottom: 2px;
+  width: 3px;
+  border-radius: 2px;
+  background-color: var(--color-accent);
+}
+
+.legal-section p {
+  font-size: 0.925rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 12px;
+}
+
+.legal-section p:last-child {
+  margin-bottom: 0;
+}
+
+.legal-section ul,
+.legal-section ol {
+  font-size: 0.925rem;
+  color: var(--color-text-secondary);
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
+
+.legal-section li {
+  margin-bottom: 6px;
+}
+
+.legal-section a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.15s;
+}
+
+.legal-section a:hover {
+  text-decoration-color: var(--color-primary);
+}
+
+.legal-section h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.legal-section blockquote {
+  border-left: 3px solid var(--color-accent);
+  background-color: var(--color-bg-subtle);
+  margin: 12px 0;
+  padding: 12px 16px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+/* ─── Legal Tables ──────────────────────────────────────────────────────── */
+.legal-table-wrap {
+  overflow-x: auto;
+  margin-bottom: 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.legal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+.legal-table th {
+  background-color: var(--color-bg-subtle);
+  color: var(--color-text-primary);
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.legal-table td {
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+.legal-table tr:last-child td {
+  border-bottom: none;
+}
+
+.legal-table tr:nth-child(even) td {
+  background-color: var(--color-bg-page);
+}
+
+/* ─── Site Footer ───────────────────────────────────────────────────────── */
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-bg-surface);
+  padding: 24px;
+}
+
+.site-footer__inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.site-footer__copyright {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.site-footer__nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
+}
+
+.site-footer__nav a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: color 0.15s;
+}
+
+.site-footer__nav a:hover {
+  color: var(--color-primary);
+}
+
+.site-footer__nav__sep {
+  color: var(--color-border);
+  user-select: none;
+}
+
+/* ─── Responsive ────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 24px 16px;
+  }
+
+  .document-header {
+    padding: 24px 24px;
+  }
+
+  .document-header h1 {
+    font-size: 1.4rem;
+  }
+
+  .document-body {
+    padding: 24px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header__inner {
+    padding: 0 16px;
+    height: 52px;
+  }
+
+  .site-logo {
+    font-size: 0.95rem;
+  }
+
+  .lang-switcher {
+    font-size: 0.75rem;
+  }
+
+  .lang-switcher a {
+    padding: 3px 6px;
+  }
+
+  .content-wrapper {
+    padding: 16px 12px;
+  }
+
+  .document-header {
+    padding: 20px 16px;
+  }
+
+  .document-header h1 {
+    font-size: 1.25rem;
+  }
+
+  .document-body {
+    padding: 20px 16px;
+  }
+
+  .legal-section h2 {
+    font-size: 1rem;
+  }
+
+  .site-footer__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}

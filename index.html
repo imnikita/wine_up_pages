@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VinoPrep — Legal</title>
+  <!-- No-JS fallback: redirect to English -->
+  <meta http-equiv="refresh" content="0; url=en/privacy-policy.html" />
+  <script>
+    (function () {
+      var supported = ['en', 'ko', 'ja'];
+      var langs = navigator.languages || [navigator.language || 'en'];
+      var lang = 'en';
+      for (var i = 0; i < langs.length; i++) {
+        var primary = langs[i].split('-')[0].toLowerCase();
+        if (supported.indexOf(primary) !== -1) {
+          lang = primary;
+          break;
+        }
+      }
+      window.location.replace(lang + '/privacy-policy.html');
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting… <a href="en/privacy-policy.html">Click here if not redirected.</a></p>
+</body>
+</html>
