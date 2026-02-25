@@ -192,7 +192,7 @@ VinoPrep은 제한된 콘텐츠(WSET Level 1 플래시카드) 및 퀴즈 기능(
 
 ## 제12조 (준거법 및 분쟁 해결)
 
-본 약관은 **[준거법 기입]**에 준거하여 해석됩니다. 분쟁이 발생할 경우 먼저 support@vinoprep.com 으로 연락하여 30일 이내에 합의를 시도해 주십시오.
+본 약관은 **[준거법 기입]**에 준거하여 해석됩니다. 분쟁이 발생할 경우 먼저 vinoprep.support@stockguard.app 으로 연락하여 30일 이내에 합의를 시도해 주십시오.
 
 합의가 이루어지지 않을 경우 **[관할 법원 기입]**을 전속 관할 법원으로 합니다.
 
@@ -232,7 +232,7 @@ Google Play Store를 통해 서비스를 이용하는 경우 Google Play 서비�
 
 **VinoPrep**
 운영자：Mykyta Popov
-이메일：support@vinoprep.com
+이메일：vinoprep.support@stockguard.app
 
 ---
 

@@ -21,7 +21,7 @@ VinoPrep(이하 "당사" 또는 "저희")는 WSET(Wine & Spirit Education Trust)
 **개발자 / 운영자：**
 Mykyta Popov
 
-**문의：** support@vinoprep.com
+**문의：** vinoprep.support@stockguard.app
 
 ---
 
@@ -35,7 +35,7 @@ VinoPrep은 다음 최소 연령 요건을 충족하는 이용자에게만 제�
 | 일본 | 만 20세 이상 |
 | 기타 모든 지역 | 만 18세 이상 (또는 해당 지역 법정 음주 가능 연령 중 높은 쪽) |
 
-당사는 연령 요건을 충족하지 않는 이용자의 데이터를 의도적으로 수집하지 않습니다. 자녀가 본 앱을 이용하고 있다고 생각되시면 support@vinoprep.com 으로 즉시 연락해 주십시오.
+당사는 연령 요건을 충족하지 않는 이용자의 데이터를 의도적으로 수집하지 않습니다. 자녀가 본 앱을 이용하고 있다고 생각되시면 vinoprep.support@stockguard.app 으로 즉시 연락해 주십시오.
 
 ---
 
@@ -163,7 +163,7 @@ VinoPrep은 당사 고유 서버에 개인 식별 정보를 수집·저장하지
 
 **구독 관리：** 구독은 Apple ID 또는 Google 계정을 통해 관리됩니다. 기기의 구독 설정에서 언제든지 해지할 수 있으며 당사에 별도로 연락하실 필요가 없습니다.
 
-**문의：** 데이터 처리에 관한 질문이 있거나 데이터가 부적절하게 처리되었다고 생각되시면 support@vinoprep.com 으로 연락해 주십시오. 30일 이내에 응답하며 기술적으로 가능한 범위에서 최대한 대응하겠습니다.
+**문의：** 데이터 처리에 관한 질문이 있거나 데이터가 부적절하게 처리되었다고 생각되시면 vinoprep.support@stockguard.app 으로 연락해 주십시오. 30일 이내에 응답하며 기술적으로 가능한 범위에서 최대한 대응하겠습니다.
 
 **개인정보 관련 불만 접수 기관：**
 
@@ -187,7 +187,7 @@ Firebase(Google), RevenueCat, Superwall이 처리하는 분석·충돌·구독 �
 - 모든 네트워크 통신에 TLS 암호화 사용
 - 보안 검증을 거친 신뢰할 수 있는 제3자 SDK 사용
 
-어떠한 시스템도 100% 안전하지 않습니다. 보안 문제를 발견하신 경우 support@vinoprep.com 으로 알려 주시기 바랍니다.
+어떠한 시스템도 100% 안전하지 않습니다. 보안 문제를 발견하신 경우 vinoprep.support@stockguard.app 으로 알려 주시기 바랍니다.
 
 ---
 
@@ -213,7 +213,7 @@ VinoPrep은 알코올 관련 교육 콘텐츠를 포함하므로 법정 음주 �
 
 **VinoPrep**
 운영자：Mykyta Popov
-이메일：support@vinoprep.com
+이메일：vinoprep.support@stockguard.app
 
 ---
 

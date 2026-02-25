@@ -194,7 +194,7 @@ VinoPrepは制限されたコンテンツ（WSET Level 1フラッシュカード
 
 ## 12. 準拠法および紛争解決
 
-本規約は**[準拠法を記入]**に準拠して解釈されます。紛争が生じた場合、まずsupport@vinoprep.com にご連絡いただき、30日以内に友好的な解決を試みてください。
+本規約は**[準拠法を記入]**に準拠して解釈されます。紛争が生じた場合、まずvinoprep.support@stockguard.app にご連絡いただき、30日以内に友好的な解決を試みてください。
 
 協議が整わない場合は、**[管轄裁判所を記入]**を専属的合意管轄裁判所とします。
 
@@ -232,7 +232,7 @@ Google Play Storeを通じて本サービスをご利用の場合、Google Play�
 
 **VinoPrep**
 運営者：Mykyta Popov
-メールアドレス：support@vinoprep.com
+メールアドレス：vinoprep.support@stockguard.app
 
 ---
 

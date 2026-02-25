@@ -20,7 +20,7 @@ VinoPrep ("we," "our," or "us") is an independent mobile application for WSET (W
 
 **Developer:**
 Mykyta Popov
-**Contact:** support@vinoprep.com
+**Contact:** vinoprep.support@stockguard.app
 
 ---
 
@@ -34,7 +34,7 @@ VinoPrep is intended only for users who meet the minimum age requirement in thei
 | South Korea | 19 years old |
 | All other regions | 18 years old (or local legal drinking age, whichever is higher) |
 
-We do not knowingly collect data from individuals below these thresholds. If you are a parent or guardian and believe your child is using the app, please contact us at support@vinoprep.com.
+We do not knowingly collect data from individuals below these thresholds. If you are a parent or guardian and believe your child is using the app, please contact us at vinoprep.support@stockguard.app.
 
 ---
 
@@ -154,7 +154,7 @@ However, you have the following practical options:
 
 **Manage your subscription:** Subscriptions are managed through your Apple ID or Google account. You can cancel at any time through your device's subscription settings — no action required from us.
 
-**Contact us:** If you have questions about data practices or believe your data has been processed incorrectly, contact us at support@vinoprep.com. We will respond within 30 days and engage with your request to the best extent technically possible.
+**Contact us:** If you have questions about data practices or believe your data has been processed incorrectly, contact us at vinoprep.support@stockguard.app. We will respond within 30 days and engage with your request to the best extent technically possible.
 
 ---
 
@@ -171,7 +171,7 @@ We take reasonable technical steps to secure the data associated with our servic
 - All network communications use TLS encryption
 - We use trusted, security-audited third-party SDKs
 
-No system is 100% secure. If you discover a security concern, please notify us at support@vinoprep.com.
+No system is 100% secure. If you discover a security concern, please notify us at vinoprep.support@stockguard.app.
 
 ---
 
@@ -196,7 +196,7 @@ We may update this Privacy Policy from time to time. When we make material chang
 ## 14. Contact
 
 **VinoPrep**
-Email: support@vinoprep.com
+Email: vinoprep.support@stockguard.app
 
 ---
 

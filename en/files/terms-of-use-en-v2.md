@@ -185,7 +185,7 @@ We reserve the right to modify, suspend, or discontinue any part of the Service 
 
 ## 12. Governing Law and Disputes
 
-These Terms are governed by the laws of **Poland**. Any disputes that cannot be resolved informally through support@vinoprep.com within 30 days may be submitted to the courts of **Poland** as the place of exclusive jurisdiction, unless otherwise required by applicable consumer protection law in your country.
+These Terms are governed by the laws of **Poland**. Any disputes that cannot be resolved informally through vinoprep.support@stockguard.app within 30 days may be submitted to the courts of **Poland** as the place of exclusive jurisdiction, unless otherwise required by applicable consumer protection law in your country.
 
 **Japan:** Disputes may be referred to the relevant consumer consultation service (国民生活センター / 188).
 **South Korea:** Disputes may be referred to the Korea Consumer Agency (한국소비자원 / 1372).
@@ -221,7 +221,7 @@ These Terms and our Privacy Policy constitute the entire agreement between you a
 ## 17. Contact
 
 **VinoPrep**
-Email: support@vinoprep.com
+Email: vinoprep.support@stockguard.app
 ---
 
 *VinoPrep is an independent study aid. WSET® is a registered trademark of the Wine & Spirit Education Trust. VinoPrep is not affiliated with or endorsed by WSET.*
